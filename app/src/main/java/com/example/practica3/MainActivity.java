@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        Button reproducir = findViewById(R.id.reproductor);
-        Button videos = findViewById(R.id.video);
+         reproducir = findViewById(R.id.reproductor);
+         videos = findViewById(R.id.video);
 
 
         reproducir.setOnClickListener(new View.OnClickListener() {

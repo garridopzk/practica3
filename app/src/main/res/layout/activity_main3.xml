@@ -8,6 +8,7 @@
     tools:context=".MainActivity3">
 
     <VideoView
+        android:id="@+id/videoView"
         android:layout_width="300dp"
         android:layout_height="200dp"
         android:layout_marginTop="150dp"
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="240dp"
         android:layout_marginTop="400dp"
-        android:text="Detener" />
+        android:text="Reiniziar" />
 
     <Button
         android:id="@+id/btnRewind"
@@ -44,6 +45,7 @@
         android:layout_marginTop="460dp"
         android:text="Avanzar 10s" />
     <Button
+        android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
